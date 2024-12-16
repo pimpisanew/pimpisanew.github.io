@@ -1,0 +1,57 @@
+def welcome_message():
+    print("ยินดีต้อนรับสู่จังหวัดเพชรบุรี\n")
+
+def tourist_spots():
+    print("สถานที่ท่องเที่ยวในจังหวัดเพชรบุรี:")
+    spots = [
+        "1. พระราชนิเวศน์มฤคทายวัน",
+        "2. หาดชะอำ",
+        "3. เขาวัง (พระนครคีรี)"
+    ]
+    for spot in spots:
+        print(spot)
+    print()
+
+def traditions():
+    print("ประเพณีในจังหวัดเพชรบุรี:")
+    traditions = [
+        "1. ประเพณีแห่พระเขาวัง",
+        "2. ประเพณีตักบาตรดอกไม้",
+        "3. ประเพณีลอยกระทงสาย"
+    ]
+    for tradition in traditions:
+        print(tradition)
+    print()
+
+def local_foods():
+    print("อาหารขึ้นชื่อในจังหวัดเพชรบุรี:")
+    foods = [
+        "1. ขนมหม้อแกง",
+        "2. ปลาทูต้มเค็ม",
+        "3. น้ำตาลโตนด"
+    ]
+    for food in foods:
+        print(food)
+    print()
+
+def accommodations():
+    print("ที่พักแนะนำในจังหวัดเพชรบุรี:")
+    accommodations = [
+        "1. โรงแรมดุสิตธานี หัวหิน",
+        "2. บ้านพักริมทะเลชะอำ",
+        "3. เดอะบลูสกาย รีสอร์ท"
+    ]
+    for accommodation in accommodations:
+        print(accommodation)
+    print()
+
+# Main program
+def main():
+    welcome_message()
+    tourist_spots()
+    traditions()
+    local_foods()
+    accommodations()
+
+if __name__ == "__main__":
+    main()
